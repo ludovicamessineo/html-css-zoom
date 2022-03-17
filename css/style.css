@@ -67,8 +67,47 @@ main {
 
 /* FOOTER */
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
     width: 100%;
+    background-color: #222222;
+}
 
-    background-color: lightgoldenrodyellow;
+.video-content {
+    display: flex;
+    margin-left: .2em;
+}
+
+.chevron {
+    vertical-align: middle;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.btn-share.active {
+    color: #4bc800;
+}
+
+.settings-content {
+    display: flex;
+}
+
+footer i {
+    font-size: 1.2em;
+    padding-bottom: .3em;
+}
+
+footer span {
+    font-size: .8em;
+}
+
+.end-footer > p {
+    color: red;
 }
