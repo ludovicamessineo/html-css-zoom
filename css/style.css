@@ -80,15 +80,15 @@ footer {
     margin-left: .2em;
 }
 
-.chevron {
-    vertical-align: middle;
-}
-
 .btn {
     display: flex;
     flex-direction: column;
     margin-right: 1em;
     text-align: center;
+}
+
+.chevron {
+    font-size: .7em;
 }
 
 .btn-share.active {
@@ -109,5 +109,7 @@ footer span {
 }
 
 .end-footer > p {
+    background-color: #4a4a4a;
     color: red;
+    padding: 2.5em 1em;
 }
