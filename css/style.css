@@ -6,10 +6,18 @@
 }
 
 /* COMMON */
+body {
+    background-color: black;
+}
+
 html {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+img {
+    width: 100%;
 }
 
 /* HEADER */
@@ -33,11 +41,17 @@ header {
 
 /* MAIN */
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: calc(100vh - 180px);
     width: 100%;
     overflow-y: auto;
+}
 
-    background-color: lightseagreen;
+.user {
+    width: 150px;
+    margin: .3em .1em;
 }
 
 /* FOOTER */
