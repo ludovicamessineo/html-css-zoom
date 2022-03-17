@@ -1,0 +1,49 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* HEADER */
+header {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    background-color: black;
+}
+
+.header-content {
+    padding: .4em;
+}
+
+.header-content > span {
+    background-color: rgba(128, 128, 128, .8);
+    border-radius: 6px;
+    font-size: .8em;
+    padding: .2em .3em;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 180px);
+    width: 100%;
+    overflow-y: auto;
+
+    background-color: lightseagreen;
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    width: 100%;
+
+    background-color: lightgoldenrodyellow;
+}
