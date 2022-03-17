@@ -20,6 +20,12 @@ img {
     width: 100%;
 }
 
+.bg-text {
+    background-color: rgba(128, 128, 128, .8);
+    font-size: .8em;
+    padding: .2em .3em;
+}
+
 /* HEADER */
 header {
     height: 80px;
@@ -33,10 +39,7 @@ header {
 }
 
 .header-content > span {
-    background-color: rgba(128, 128, 128, .8);
     border-radius: 6px;
-    font-size: .8em;
-    padding: .2em .3em;
 }
 
 /* MAIN */
@@ -50,8 +53,16 @@ main {
 }
 
 .user {
-    width: 150px;
+    width: 160px;
     margin: .3em .1em;
+    position: relative;
+}
+
+.user > p {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    font-size: .7em;
 }
 
 /* FOOTER */
